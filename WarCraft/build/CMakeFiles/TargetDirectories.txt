@@ -1,0 +1,3 @@
+D:/CodeAcademy/StrypesProjects/WarCraft/build/CMakeFiles/warcraft.dir
+D:/CodeAcademy/StrypesProjects/WarCraft/build/CMakeFiles/edit_cache.dir
+D:/CodeAcademy/StrypesProjects/WarCraft/build/CMakeFiles/rebuild_cache.dir

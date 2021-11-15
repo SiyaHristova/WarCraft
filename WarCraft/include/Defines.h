@@ -1,0 +1,36 @@
+#ifndef DEFINES_H_
+#define DEFINES_H_
+
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+
+enum SpellPassive{
+  PASSIVE_SPELL = 0,
+  REGULAR_SPELL = 1 
+};
+
+enum ActionType {
+  CAST_BASIC_SPELL = 0, CAST_ULTIMATE_SPELL = 1, REGENERATE_MANA = 2
+};
+
+enum HeroType {
+  ARCHMAGE = 0, DEATH_KNIGHT = 1, DRAW_RANGER = 2
+};
+
+#define ARCHMAGE_BASIC_SPELL_NAME "Water Elemental"
+#define ARCHMAGE_BASIC_SPELL_MANA_COST 120
+#define ARCHMAGE_ULTIMATE_SPELL_NAME "Mass Teleport"
+#define ARCHMAGE_ULTIMATE_SPELL_MANA_COST 180
+
+#define DEATH_KNIGHT_BASIC_SPELL_NAME "Death Coil"
+#define DEATH_KNIGHT_BASIC_SPELL_MANA_COST 75
+#define DEATH_KNIGHT_ULTIMATE_SPELL_NAME "Animate Dead"
+#define DEATH_KNIGHT_ULTIMATE_SPELL_MANA_COST 200
+
+#define DRAW_RANGER_BASIC_SPELL_NAME "Silence"
+#define DRAW_RANGER_BASIC_SPELL_MANA_COST 90
+#define DRAW_RANGER_ULTIMATE_SPELL_NAME "Charm"
+#define DRAW_RANGER_ULTIMATE_SPELL_MANA_COST 150
+
+#endif /* DEFINES_H_ */
